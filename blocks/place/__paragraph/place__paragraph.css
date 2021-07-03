@@ -1,0 +1,38 @@
+.place__paragraph {
+  max-width: 484px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  grid-area: place-paragraph;
+  color: #FFFFFF;
+  text-align: left;
+  margin-top: 48px;
+}
+
+@media screen and (max-width:1279px) and (min-width:1024px) {
+  .place__paragraph {
+    max-width: 456px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width:1023px) and (min-width:768px) {
+  .place__paragraph {
+    max-width: 352px;
+    font-size: 16px;
+    line-height: 1.63em;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width:767px) and (min-width:320px) {
+  .place__paragraph {
+    max-width: 288px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    font-size: 16px;
+  }
+}
