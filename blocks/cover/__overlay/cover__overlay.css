@@ -7,7 +7,10 @@
   justify-content: center;
   align-items: center;
   justify-self: center;
-  margin-top: 0;
+  margin: 0;
+  transition: 1s;
+  padding: 0 0 0 0;
+
 }
 
 .cover__overlay:hover {

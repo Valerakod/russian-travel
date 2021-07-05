@@ -7,7 +7,8 @@
   grid-area: place-paragraph;
   color: #FFFFFF;
   text-align: left;
-  margin-top: 48px;
+  margin: 6px 0 26px 0;
+  padding: 0;
 }
 
 @media screen and (max-width:1279px) and (min-width:1024px) {
@@ -15,7 +16,6 @@
     max-width: 456px;
     font-size: 18px;
     line-height: 30px;
-    margin-top: 0;
   }
 }
 
@@ -24,7 +24,6 @@
     max-width: 352px;
     font-size: 16px;
     line-height: 1.63em;
-    margin-top: 0;
   }
 }
 

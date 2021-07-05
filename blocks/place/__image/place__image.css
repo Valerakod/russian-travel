@@ -2,6 +2,7 @@
   max-width: 460px;
   grid-area: place-image;
   object-fit: contain;
+  margin: 8px 0 0 0;
 }
 
 @media screen and (max-width:1279px) and (min-width:1024px) {

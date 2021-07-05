@@ -1,6 +1,8 @@
-.intro__list_number {
+.intro__number {
   font-style: normal;
   font-weight: normal;
   color: #FFFFFF;
   margin-left: 5px;
+  font-size: 12px;
+  line-height: 18px;
 }
