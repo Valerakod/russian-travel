@@ -18,3 +18,4 @@
 
 
 ### Работа выполнена с использованием инструментова Flexbox и Grid Layout.
+# Ссылка на страницу [https://valerakod.github.io/russian-travel/] (в Гитхаб)

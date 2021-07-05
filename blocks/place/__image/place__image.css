@@ -26,7 +26,7 @@
   .place__image {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(12, 1fr);
-    margin-bottom: 50px;
+    margin: 0;
     gap: 12px;
     max-width: 320px;
   }
