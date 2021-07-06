@@ -11,19 +11,20 @@
 @media screen and (max-width:1279px) and (min-width:1024px) {
   .places {
     max-width: 928px;
-    margin: 89px 0 0 0;
+    margin: 0 auto 0;
   }
 }
 
 @media screen and (max-width:1023px) and (min-width:768px) {
   .places {
     max-width: 768px;
+    margin: 0 auto 0;
   }
 }
 
 @media screen and (max-width:767px) and (min-width:320px) {
   .places {
     max-width: 288px;
-    margin: 0 auto;
+    margin: 0;
   }
 }

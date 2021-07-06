@@ -10,7 +10,7 @@
   margin: 0;
   transition: 1s;
   padding: 0 0 0 0;
-
+  /* min-height: 740px; */
 }
 
 .cover__overlay:hover {
@@ -20,6 +20,7 @@
 @media screen and (max-width:1279px) and (min-width:1024px) {
   .cover__overlay {
     max-width: 1024px;
+
   }
 }
 

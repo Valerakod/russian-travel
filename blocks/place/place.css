@@ -7,6 +7,7 @@
   grid-row-gap: 40px;
   grid-template-areas: "place-title place-web" "place-image place-paragraph";
   margin-bottom: 80px;
+  grid-template-rows: auto;
 }
 
 .place:last-child {
@@ -17,7 +18,7 @@
   .place {
     max-width: 928px;
     grid-column-gap: 32px;
-    margin: 51px 0 0 0;
+    grid-row-gap: 0px;
   }
 }
 
@@ -25,15 +26,19 @@
   .place {
     grid-column-gap: 28px;
     max-width: 768px;
+
+  }
+   /*.place:first-child {
+    margin: 507px 0 0 0;*/
   }
 }
 
 @media screen and (max-width:767px) and (min-width:320px) {
   .place {
     max-width: 320px;
-    grid-column-gap: 32px;
+    /*grid-column-gap: 32px;*/
     grid-template-areas: "place-title" "place-web" "place-image" "place-paragraph";
-    margin-bottom: 64px;
+    margin: 0 0 64px 19px;
   }
   .place:last-child {
     margin-bottom: 0;
