@@ -26,10 +26,11 @@
   .place {
     grid-column-gap: 28px;
     max-width: 768px;
+    margin: 47px 0 0 0;
 
   }
-   /*.place:first-child {
-    margin: 507px 0 0 0;*/
+   .place:first-child {
+    margin: 0;
   }
 }
 
