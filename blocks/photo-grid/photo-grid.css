@@ -20,7 +20,7 @@
   .photo-grid {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(6, 1fr);
-    margin: 87px 0 91px 0;
+    margin: 87px 24px 91px 24px;
   }
 }
 

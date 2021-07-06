@@ -37,9 +37,10 @@
 @media screen and (max-width:767px) and (min-width:320px) {
   .place {
     max-width: 320px;
-    /*grid-column-gap: 32px;*/
+    grid-column-gap: 32px;
     grid-template-areas: "place-title" "place-web" "place-image" "place-paragraph";
-    margin: 0 0 64px 19px;
+    margin: 0 16px;
+
   }
   .place:last-child {
     margin-bottom: 0;
