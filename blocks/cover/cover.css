@@ -29,7 +29,7 @@
   .cover {
     max-width: 320px;
     min-height: 200px;
-    margin: 0 auto;
+    margin: 66px auto 0 auto;
     width: 100%;
   }
 }
