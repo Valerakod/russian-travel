@@ -26,10 +26,9 @@
   .place {
     grid-column-gap: 28px;
     max-width: 768px;
-    margin: 47px 0 0 0;
-
+    margin: 47px auto 0;
   }
-   .place:first-child {
+  .place:first-child {
     margin: 0;
   }
 }
@@ -39,8 +38,7 @@
     max-width: 320px;
     grid-column-gap: 32px;
     grid-template-areas: "place-title" "place-web" "place-image" "place-paragraph";
-    margin: 0 16px;
-
+    grid-row-gap: 32px;
   }
   .place:last-child {
     margin-bottom: 0;

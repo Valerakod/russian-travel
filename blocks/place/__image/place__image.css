@@ -18,7 +18,6 @@
     margin: 5px 0 0 0;
     max-width: 340px;
   }
-
   .place__image:first-child {
     margin: 30px 0 0 0;
   }
@@ -26,8 +25,10 @@
 
 @media screen and (max-width:767px) and (min-width:320px) {
   .place__image {
-    margin: 32px 0 0 0;
-   max-width: 320px;
-    width: 100%;
+    margin: 0;
+    max-width: 320px;
+    justify-content: center;
+
+
   }
 }

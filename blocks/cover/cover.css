@@ -6,13 +6,13 @@
   background-repeat: no-repeat;
   max-width: 1184px;
   min-height: 740px;
-  margin: 26px 0;
+  margin: 23px 0px 27px;
 }
 
 @media screen and (max-width:1279px) and (min-width:1024px) {
   .cover {
     max-width: 1024px;
-    margin: 30px 0;
+    margin: 26px 0px 33px;
   }
 }
 
@@ -20,8 +20,8 @@
   .cover {
     max-width: 768px;
     min-height: 480px;
-    margin: 69px 0 65px;
-    width: 100%;
+    margin: 70px 0 65px;
+
   }
 }
 
@@ -29,6 +29,6 @@
   .cover {
     max-width: 320px;
     min-height: 200px;
-
+    margin: 0;
   }
 }
