@@ -17,3 +17,9 @@
     margin: 0px 0 0px 17px;
   }
 }
+
+@media screen and (max-width:1279px) and (min-width:1024px) {
+  .place__website {
+    margin: 0px 0 0px 0x;
+  }
+}
